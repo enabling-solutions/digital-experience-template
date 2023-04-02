@@ -1,5 +1,5 @@
 {
-  "name": "turbo-next-storybook-graphql-typescript",
+  "name": "next-storybook-graphql-template",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -14,12 +14,11 @@
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
-    "prettier": "latest",
-    "turbo": "latest"
+    "prettier": "^2.8.7",
+    "turbo": "^1.8.8"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "pnpm@7.25.0"
 }
