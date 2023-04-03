@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.2.0",
+    "@tanstack/react-query": "^4.28.0",
     "next": "^13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -21,6 +24,7 @@
     "@types/react-dom": "^18.0.11",
     "eslint": "8.37.0",
     "eslint-config-custom": "workspace:*",
+    "graphql-codegen-types": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.0.3"
   }

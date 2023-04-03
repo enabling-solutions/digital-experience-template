@@ -1,0 +1,14 @@
+query Example {
+  episodes {
+    results {
+      name
+      episode
+      air_date
+    }
+  }
+  characters {
+    results {
+      name
+    }
+  }
+}
