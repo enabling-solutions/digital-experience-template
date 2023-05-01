@@ -29,7 +29,7 @@ importers:
         specifier: ^1.9.3
         version: 1.9.3
 
-  apps/storybook:
+  apps/docs:
     dependencies:
       ui:
         specifier: workspace:*
@@ -123,9 +123,6 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
-      graphql-codegen-types:
-        specifier: workspace:*
-        version: link:../../packages/graphql-codegen-types
       postcss:
         specifier: ^8.4.23
         version: 8.4.23
@@ -163,8 +160,6 @@ importers:
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
-
-  packages/graphql-codegen-types: {}
 
   packages/tailwind-config:
     devDependencies:

@@ -8,10 +8,9 @@ This TurboRepo is powered by [pnpm](https://pnpm.io), an efficient package manag
 
 ### 🚀 Applications and Packages
 
-- `apps/storybook`: A comprehensive [Storybook](https://storybook.js.org/) app for showcasing your components
+- `apps/docs`: A comprehensive [Storybook](https://storybook.js.org/) app for showcasing your components
 - `apps/web`: A cutting-edge [Next.js](https://nextjs.org/) app for lightning-fast web development
 - `packages/ui`: A starter React component library shared by both the `web` and `storybook` applications
-- `packages/graphql-codegen-types`: An auto-generated package to create GraphQL types and hooks with GraphQL Codegen, supporting react-query and SSR/SSG in Next.js
 - `packages/eslint-config-custom`: Custom `eslint` configurations, including `eslint-config-next` and `eslint-config-prettier`
 - `packages/tsconfig`: Centralized `tsconfig.json` files used throughout the monorepo
 - `packages/tailwind-config`: Custom Tailwind CSS configuration for styling consistency across applications

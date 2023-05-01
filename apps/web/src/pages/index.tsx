@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { GraphQLClient } from "graphql-request";
 import { dehydrate, QueryClient } from "@tanstack/react-query";
-import { useExampleQuery } from "graphql-codegen-types";
 import { Button } from "ui";
+import { useExampleQuery } from "../types/codegen";
 
 const client = new GraphQLClient(process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT!);
 
