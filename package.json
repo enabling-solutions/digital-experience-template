@@ -17,11 +17,11 @@
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "dotenv-cli": "latest",
-    "prettier": "^2.8.7",
-    "turbo": "^1.8.8",
-    "@graphql-codegen/cli": "^3.2.2",
+    "prettier": "^2.8.8",
+    "turbo": "^1.9.3",
+    "@graphql-codegen/cli": "^3.3.1",
     "@graphql-codegen/typescript-graphql-request": "^4.5.9",
-    "@graphql-codegen/typescript-operations": "^3.0.2",
+    "@graphql-codegen/typescript-operations": "^3.0.4",
     "@graphql-codegen/typescript-react-query": "^4.1.0"
   },
   "engines": {
