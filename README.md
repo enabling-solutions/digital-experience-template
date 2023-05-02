@@ -1,6 +1,6 @@
-# Digital Experience Boilerplate - Unleash the Power 💥
+# Digital Experience Template - Unleash the Power 💥
 
-Welcome to the ultimate Turbo Next.js Boilerplate! This repository contains a fully configured boilerplate to kickstart your projects with TurboRepo, Next.js 13, Storybook 7.0, TailwindCSS, and GraphQL Codegen.
+Welcome to the ultimate DXP Template! This repository contains a fully configured boilerplate to kickstart your projects with TurboRepo, Next.js 13, Storybook 7.0, TailwindCSS, and GraphQL Codegen.
 
 ## 📦 What's in the box?
 

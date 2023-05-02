@@ -1,12 +1,12 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { Button } from "ui";
+import { Meta, StoryObj } from "@storybook/react"
+import { Button } from "ui"
 
 const meta: Meta<typeof Button> = {
   title: "Button",
-  component: Button,
-};
+  component: Button
+}
 
-export default meta;
-type Story = StoryObj<typeof Button>;
+export default meta
+type Story = StoryObj<typeof Button>
 
-export const Default: Story = {};
+export const Default: Story = {}

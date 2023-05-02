@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config()
 
 module.exports = {
   overwrite: true,
@@ -10,19 +10,19 @@ module.exports = {
       plugins: [
         "typescript",
         "typescript-operations",
-        "typescript-react-query",
+        "typescript-react-query"
       ],
       config: {
         fetcher: "graphql-request",
         exposeQueryKeys: true,
-        exposeFetcher: true,
+        exposeFetcher: true
       },
       hooks: {
         // BUG: https://github.com/dotansimha/graphql-code-generator/issues/9046
         afterOneFileWrite: [
-          'sed -i "" -e "s|graphql-request/dist/types.dom|graphql-request/src/types.dom|g"',
-        ],
-      },
-    },
-  },
-};
+          'sed -i "" -e "s|graphql-request/dist/types.dom|graphql-request/src/types.dom|g"'
+        ]
+      }
+    }
+  }
+}

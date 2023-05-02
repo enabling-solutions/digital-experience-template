@@ -1,5 +1,5 @@
-import "tailwind-config/globals.css";
-import type { Preview } from "@storybook/react";
+import "tailwind-config/globals.css"
+import type { Preview } from "@storybook/react"
 
 const preview: Preview = {
   parameters: {
@@ -7,10 +7,10 @@ const preview: Preview = {
     controls: {
       matchers: {
         color: /(background|color)$/i,
-        date: /Date$/,
-      },
-    },
-  },
-};
+        date: /Date$/
+      }
+    }
+  }
+}
 
-export default preview;
+export default preview
