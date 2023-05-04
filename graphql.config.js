@@ -6,7 +6,7 @@ module.exports = {
   documents: ["./apps/**/*.graphql"],
   ignoreNoDocuments: true,
   generates: {
-    "./apps/web/src/types/codegen.ts": {
+    "./packages/graphql-codegen-types/index.ts": {
       plugins: [
         "typescript",
         "typescript-operations",
@@ -16,12 +16,6 @@ module.exports = {
         fetcher: "graphql-request",
         exposeQueryKeys: true,
         exposeFetcher: true
-      },
-      hooks: {
-        // BUG: https://github.com/dotansimha/graphql-code-generator/issues/9046
-        afterOneFileWrite: [
-          'sed -i "" -e "s|graphql-request/dist/types.dom|graphql-request/src/types.dom|g"'
-        ]
       }
     }
   }

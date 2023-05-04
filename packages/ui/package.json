@@ -13,6 +13,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.39.0",
     "postcss": "^8.4.23",
+    "graphql-codegen-types": "workspace:*",
     "react": "^18.2.0",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.3.2",

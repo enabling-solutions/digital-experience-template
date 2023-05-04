@@ -212,9 +212,9 @@ export type QueryLocationsByIdsArgs = {
   ids: Array<Scalars["ID"]>
 }
 
-export type ExampleQueryVariables = Exact<{ [key: string]: never }>
+export type EpisodesQueryVariables = Exact<{ [key: string]: never }>
 
-export type ExampleQuery = {
+export type EpisodesQuery = {
   __typename?: "Query"
   episodes?: {
     __typename?: "Episodes"
@@ -234,8 +234,8 @@ export type ExampleQuery = {
   } | null
 }
 
-export const ExampleDocument = `
-    query Example {
+export const EpisodesDocument = `
+    query Episodes {
   episodes {
     results {
       name
@@ -250,33 +250,33 @@ export const ExampleDocument = `
   }
 }
     `
-export const useExampleQuery = <TData = ExampleQuery, TError = unknown>(
+export const useEpisodesQuery = <TData = EpisodesQuery, TError = unknown>(
   client: GraphQLClient,
-  variables?: ExampleQueryVariables,
-  options?: UseQueryOptions<ExampleQuery, TError, TData>,
+  variables?: EpisodesQueryVariables,
+  options?: UseQueryOptions<EpisodesQuery, TError, TData>,
   headers?: RequestInit["headers"]
 ) =>
-  useQuery<ExampleQuery, TError, TData>(
-    variables === undefined ? ["Example"] : ["Example", variables],
-    fetcher<ExampleQuery, ExampleQueryVariables>(
+  useQuery<EpisodesQuery, TError, TData>(
+    variables === undefined ? ["Episodes"] : ["Episodes", variables],
+    fetcher<EpisodesQuery, EpisodesQueryVariables>(
       client,
-      ExampleDocument,
+      EpisodesDocument,
       variables,
       headers
     ),
     options
   )
 
-useExampleQuery.getKey = (variables?: ExampleQueryVariables) =>
-  variables === undefined ? ["Example"] : ["Example", variables]
-useExampleQuery.fetcher = (
+useEpisodesQuery.getKey = (variables?: EpisodesQueryVariables) =>
+  variables === undefined ? ["Episodes"] : ["Episodes", variables]
+useEpisodesQuery.fetcher = (
   client: GraphQLClient,
-  variables?: ExampleQueryVariables,
+  variables?: EpisodesQueryVariables,
   headers?: RequestInit["headers"]
 ) =>
-  fetcher<ExampleQuery, ExampleQueryVariables>(
+  fetcher<EpisodesQuery, EpisodesQueryVariables>(
     client,
-    ExampleDocument,
+    EpisodesDocument,
     variables,
     headers
   )

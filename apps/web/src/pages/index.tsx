@@ -1,9 +1,8 @@
 import Head from "next/head"
 import { QueryClient, dehydrate } from "@tanstack/react-query"
+import { useEpisodesQuery } from "graphql-codegen-types"
 import { GraphQLClient } from "graphql-request"
 import { Button } from "ui"
-
-import { useExampleQuery } from "../types/codegen"
 
 const client = new GraphQLClient(process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT!)
 
@@ -11,8 +10,8 @@ export async function getStaticProps() {
   const queryClient = new QueryClient()
 
   await queryClient.prefetchQuery(
-    useExampleQuery.getKey(),
-    useExampleQuery.fetcher(client)
+    useEpisodesQuery.getKey(),
+    useEpisodesQuery.fetcher(client)
   )
 
   return {
@@ -23,7 +22,7 @@ export async function getStaticProps() {
 }
 
 export default function Home() {
-  const { data } = useExampleQuery(client)
+  const { data } = useEpisodesQuery(client)
 
   return (
     <>

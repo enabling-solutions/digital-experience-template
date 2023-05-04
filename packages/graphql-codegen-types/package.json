@@ -1,0 +1,10 @@
+{
+  "name": "graphql-codegen-types",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@tanstack/react-query": "^4.29.5",
+    "graphql-request": "^6.0.0"
+  }
+}
