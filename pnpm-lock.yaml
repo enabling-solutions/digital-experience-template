@@ -26,8 +26,11 @@ importers:
       '@graphql-codegen/typescript-react-query':
         specifier: ^4.1.0
         version: 4.1.0(graphql@16.6.0)
+      dotenv:
+        specifier: ^16.1.4
+        version: 16.1.4
       dotenv-cli:
-        specifier: latest
+        specifier: ^7.2.1
         version: 7.2.1
       eslint-config-custom:
         specifier: workspace:*
