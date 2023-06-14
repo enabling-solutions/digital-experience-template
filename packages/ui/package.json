@@ -8,16 +8,16 @@
     "lint": "eslint '**/*.{ts,tsx,js,jsx}'"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.1",
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.39.0",
-    "postcss": "^8.4.23",
+    "eslint": "^8.42.0",
+    "postcss": "^8.4.24",
     "graphql-codegen-types": "workspace:*",
     "react": "^18.2.0",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.3.2",
     "tsconfig": "workspace:*",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }

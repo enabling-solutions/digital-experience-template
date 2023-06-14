@@ -1,8 +1,6 @@
 module.exports = {
-  content: [
-    "src/**/*.{js,ts,jsx,tsx,mdx}",
-    "../../packages/ui/**/*.{js,ts,jsx,tsx,mdx}"
-  ],
+  mode: "jit",
+  content: ["src/**/*.{ts,tsx}", "../../packages/ui/**/*.{ts,tsx}"],
   theme: {
     extend: {}
   },
